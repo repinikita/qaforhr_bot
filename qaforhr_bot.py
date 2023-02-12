@@ -36,7 +36,7 @@ def lalala(message):
             item5 = types.InlineKeyboardButton("📧", callback_data='e')
             item6 = types.InlineKeyboardButton("📱", callback_data='n')
  
-            markup.add(item1, item2,item3,item4,item5)
+            markup.add(item1, item2,item3,item4,item5,item6)
  
             bot.send_message(message.chat.id, '👨‍💻 Запускаю поиск лучших QA специалистов')
             time.sleep(1)
