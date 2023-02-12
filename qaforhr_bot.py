@@ -3,7 +3,7 @@ import time
  
 from telebot import types
  
-bot = telebot.TeleBot(token = '5691957437:AAGpCRlruWQss7mD7Z9bW9JPTQzfwPOz09s',parse_mode='html')
+bot = telebot.TeleBot(token = 'ТОКЕН',parse_mode='html')
 
  
 @bot.message_handler(commands=['start'])
