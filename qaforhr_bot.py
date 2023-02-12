@@ -31,9 +31,10 @@ def lalala(message):
             markup = types.InlineKeyboardMarkup(row_width=6)
             item1 = types.InlineKeyboardButton("Сайт", url='https://repinikita.ru/')
             item2 = types.InlineKeyboardButton("Git", url='https://github.com/repinikita')
-            item3 = types.InlineKeyboardButton("Telegram", url='https://t.me/re_nikita')
-            item4 = types.InlineKeyboardButton("📧", callback_data='e')
-            item5 = types.InlineKeyboardButton("📱", callback_data='n')
+            item3 = types.InlineKeyboardButton("Игра JS", url='https://repinikita.ru/seabattle')
+            item4 = types.InlineKeyboardButton("Telegram", url='https://t.me/re_nikita')
+            item5 = types.InlineKeyboardButton("📧", callback_data='e')
+            item6 = types.InlineKeyboardButton("📱", callback_data='n')
  
             markup.add(item1, item2,item3,item4,item5)
  
