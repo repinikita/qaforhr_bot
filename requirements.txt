@@ -1,4 +1,3 @@
 pytelegrambotapi
 telebot
-config
 gunicorn
