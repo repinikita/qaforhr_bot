@@ -1,10 +1,10 @@
 import telebot
-import config
 import time
  
 from telebot import types
  
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(token = '5691957437:AAGpCRlruWQss7mD7Z9bW9JPTQzfwPOz09s
+')
 
  
 @bot.message_handler(commands=['start'])
